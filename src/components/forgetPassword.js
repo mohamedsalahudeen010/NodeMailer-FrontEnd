@@ -37,7 +37,7 @@ const ForgetPage=()=>{
               console.log("error",error)
             }
       
-            
+             history.push("/") 
           }
    return(
    <div className="container">   
